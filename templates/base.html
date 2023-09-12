@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>website</title>
+
+    </head>
+    <body>
+        {% block messages %}
+            {% include "messages.html" %}
+        {% endblock messages %}
+
+        {% block content %}
+
+        {% endblock content %}
+        
+    </body>
+</html>
+
+<!--
+ALL COMMON CONTENT
+<link rel="stylesheet" type="text/css" href="../static/style.css">
+fonts en head
+
+en body terminar con scripts.
+-->
